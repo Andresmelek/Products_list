@@ -15,10 +15,10 @@ Resources
 | Main Files | Description |
 | --- | --- |
 | [index.js]() | Functions and rendering products.  |
-| [singleproduct.js] | Interfaz to create a new product. |
-| [edit.js] | Functions that renders interfaz to update products. |
-| [products.js] | API Requests. |
-| [data/products.json] | Json with the products. |
+| [singleproduct.js]() | Interfaz to create a new product. |
+| [edit.js]() | Functions that renders interfaz to update products. |
+| [products.js]() | API Requests. |
+| [data/products.json]() | Json with the products. |
 
 
 
