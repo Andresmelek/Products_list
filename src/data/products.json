@@ -1,0 +1,64 @@
+{
+  "Products": [
+    {
+      "id": "41yzjmrwf",
+      "name": "Iron",
+      "description": "In iron and steams with cold water.",
+      "warranty": "2 years",
+      "quantity": "250",
+      "status": "ACTIVE",
+      "price": "350000",
+      "createdAt": "2020-07-26T02:38:41.724Z"
+    },
+    {
+      "id": "6f0o5dca7",
+      "name": "Refrigerator",
+      "description": "2 feet tall",
+      "warranty": "5 year",
+      "quantity": "260",
+      "status": "INACTIVE",
+      "price": "3500000",
+      "createdAt": "2020-07-26T02:40:57.564Z"
+    },
+    {
+      "id": "xndz68j1k",
+      "name": "Blower",
+      "description": "Wireeless for 35 hourx",
+      "warranty": "6 months",
+      "quantity": "620",
+      "status": "PUBLISHED",
+      "price": "180000",
+      "createdAt": "2020-07-26T02:41:33.561Z"
+    },
+    {
+      "id": "0zl9b91qd",
+      "name": "Iphone 11 pro",
+      "description": "Latest device from appe",
+      "warranty": "1 year",
+      "quantity": "15",
+      "status": "PUBLISHED",
+      "price": "4500000",
+      "createdAt": "2020-07-26T02:42:12.329Z"
+    },
+    {
+      "id": "6nsjo2emi",
+      "name": "Zoom suscription",
+      "description": "Private rooms",
+      "warranty": "11 months",
+      "quantity": "150",
+      "status": "ACTIVE",
+      "price": "150698",
+      "createdAt": "2020-07-26T02:44:08.058Z"
+    },
+    {
+      "id": "kyvgx4ezc",
+      "name": "Credit Ensurance",
+      "description": "In case of sickness or death",
+      "warranty": "Until something happens",
+      "quantity": "698",
+      "status": "INACTIVE",
+      "price": "6000000",
+      "createdAt": "2020-07-26T02:44:53.664Z"
+    }
+  ]
+}

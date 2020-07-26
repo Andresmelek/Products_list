@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PANACASH | Panacash Exercise</title>
+    <link rel="stylesheet" href="singleproduct.css" />
+  </head>
+  <body>
+    <div class="product-app">
+        <div class="title"> Create Product.</div>
+        <div class="filter2">
+          <label><button class="button" onclick="window.location.href='index.html';"> Display Products</button></label>
+        </div>
+      </div>
+      <div class="single-product">
+      <div class="product-form">
+      <div class="input-fields">
+              <label>Name</label>
+              <input type="text" id="name" placeholder="type product name">
+              <label>Description</label>
+              <input type="text" id="description" placeholder="type product description">
+              <label>Warranty</label>
+              <input type="text" id="warranty" placeholder="type product warranty time" value="">
+              <label>Quantity</label>
+              <input type="number" id="quantity" placeholder="type product quantity">
+              <label>Status</label>
+              <select  type="text" id="status" placeholder="type product status">
+                <option id="status" value="none"></option>
+                <option id="status" value="PUBLISHED">PUBLISHED</option>
+                <option id="status" value="ACTIVE">ACTIVE</option>
+                <option id="status" value="INACTIVE">INACTIVE</option>
+              </select>
+              <label>Price</label>
+              <input type="number" id="price" placeholder="type product price">
+              <input class="saveButton" type="submit" name="submit" value="Save">
+      </div>
+       </div>
+      </div>
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
