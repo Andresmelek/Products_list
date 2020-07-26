@@ -6,12 +6,14 @@ const param = url.split('?')
 const id = param[1]
 const api = new API();
 
-
+//Fetch to the api
 api.singleProduct(id)
 .then(data => {
   renderProduct(data)
 })
 
+
+//Renders the interfaz to update users
 const renderProduct = ({ id, name, description, warranty, quantity, status, price }) => {
   const html = 
       `
@@ -36,6 +38,8 @@ const renderProduct = ({ id, name, description, warranty, quantity, status, pric
   `
   document.querySelector('.edit-fields').innerHTML = html;
 
+
+  //Gets values from the input fields
   document.querySelector(".updateButton").addEventListener('click', e => {
     e.preventDefault()
     name = document.querySelector('#edit-name').value,
@@ -63,6 +67,7 @@ const renderProduct = ({ id, name, description, warranty, quantity, status, pric
   
     }
 
+    //Fetch the put request
     api.updateProduct(id, data)
     .then(data => {
       console.log('Succesfully updated')
